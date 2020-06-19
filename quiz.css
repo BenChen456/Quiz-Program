@@ -1,0 +1,98 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  #text {
+      margin-top: 50px;
+    }
+    
+    #question_selection{
+        background: white;
+        position: absolute;
+        top: 10%;
+        left: 25%;
+        text-align: center;
+        width: 700px;
+        height: 600px;
+    }
+    
+    .noText{
+      opacity: 0;
+      cursor: default;
+    }
+    
+    #question{
+        display: flex;
+        align-items: center;
+        height: 100px;
+        font-size: 1.25rem;
+    }
+    
+    #q1, #q2, #q3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 700px;
+        border-radius: 0%;
+        border-color: grey;
+        border-right: 2px solid grey;
+        border-left: 2px solid grey;
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        font-size: 1rem;
+    }
+    
+    #q0{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 700px;
+        border-radius: 0%;
+        border-color: grey;
+        border-right: 2px solid grey;
+        border-left: 2px solid grey;
+        border-bottom: 1px solid grey;
+        border-top: 2px solid grey;
+        font-size: 1rem;
+    }
+    
+    #submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 700px;
+        border-radius: 0%;
+        border-right: 2px solid grey;
+        border-left: 2px solid grey;
+        border-bottom: 2px solid grey;
+        border-top: 1px solid grey;
+        font-size: 1.25rem;
+    }
+    
+    #theSepThing{
+        display: flex;
+        justify-content: space-between;
+        border-right: 2px solid grey;
+        border-left: 2px solid grey;
+        border-top: 2px solid grey;
+    }
+    
+
+  
+    .correct{
+        background-color: hsl(123, 41%, 45%);
+        color: white;
+    }
+  
+    .incorrect{
+      background-color: red;
+      color: white;
+    }
+
+    .picked{
+      background-color: grey;
+      color: white;
+    }

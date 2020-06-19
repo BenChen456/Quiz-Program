@@ -1,0 +1,119 @@
+*{
+    font-family: 'Roboto', sans-serif;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mainGrid{
+    display: grid;
+    width: 1200px;
+    height: 700px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+#quizGrid1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    border-top: 2px solid #45567d;
+    border-left: 2px solid #45567d;
+    border-right: 2px solid #45567d;
+}
+
+#quizGrid2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    border-top: 2px solid #45567d;
+    border-right: 2px solid #45567d;
+}
+
+#quizGrid3{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    border-top: 2px solid #45567d;
+    border-left: 2px solid #45567d;
+    border-bottom: 2px solid #45567d;
+    border-right: 2px solid #45567d;
+}
+
+#quizGrid4{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    border-top: 2px solid #45567d;
+    border-right: 2px solid #45567d;
+    border-bottom: 2px solid #45567d;
+}
+
+.rain{
+    border-bottom: 2px solid #45567d;
+    background-color: #5c6bc0;
+    font-size: 1.25rem;
+}
+
+.head{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    color: white;
+}
+
+.body{
+    display: flex;
+    margin: 2rem;
+    font-size: 1.05rem;
+}
+
+.startButton {
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-top: auto;
+    font-size: 1.05rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#scoreCard{
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    text-align: center;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    border: 2px solid grey;
+}
+
+#score{
+    margin-top: 100px;
+}
+
+.cen{
+    width: 700px;
+    height: 50px;
+}
+
+#anotherQuiz{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    height: 100px;
+    width: 200px;
+}
+
+.hide {
+    display: none;
+}
