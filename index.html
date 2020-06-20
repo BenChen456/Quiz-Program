@@ -1,0 +1,70 @@
+<body>
+    <header>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="quiz.css" media="screen"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </header>
+    
+    
+        <div id="mainGrid">
+            <div id="quizGrid1">
+                <div class="rain">
+                    <div class="head">Math Quiz</div>
+                </div>
+                <div class="body"> 
+                    A quiz that tests your Math knowledge.
+                    <button class="startButton" id="sBtnMath">Start</button>
+                </div>
+            </div>
+            <div id="quizGrid2">
+                <div class="rain">
+                    <div class="head">American History Quiz</div>
+                </div>
+                <div class="body"> 
+                    A quiz that tests your American History knowledge.
+                    <button class="startButton" id="sBtnAmericanHistory">Start</button>
+                </div>
+            </div>
+            <div id="quizGrid3">
+                <div class="rain">
+                    <div class="head">English Quiz</div>
+                </div>
+                <div class="body"> 
+                    A quiz that tests your English knowledge. 
+                    <button class="startButton" id="sBtnEnglish">Start</button>
+                </div>
+            </div>
+            <div id="quizGrid4">
+                <div class="rain">
+                    <div class="head">Science Quiz</div>
+                </div>
+                <div class="body"> 
+                    A quiz that tests your Science knowledge.
+                    <button class="startButton" id="sBtnScience">Start</button>
+                </div>
+            </div>
+        </div>
+    
+        <div id="question_selection" class="hide">
+            <div id="theSepThing">
+              <div id="close">End Quiz</div>
+              <div id="question"></div>
+              <div class="noText">LLLL</div>
+            </div>
+              <button id="q0"></button>
+              <button id="q1"></button>
+              <button id="q2"></button>
+              <button id="q3"></button>
+              <button id="submit">Submit</button>
+        </div>
+    
+        <div id="hideScore" class="hide">
+        <div id="scoreCard">
+            <div id="score" class="cen"></div>
+            <button id="anotherQuiz" class="cen">Try another Quiz</button>
+            <div class="cen"></div>
+        </div>
+        </div>
+    
+        <script type="module" src="index.js"></script>
+    </body>
